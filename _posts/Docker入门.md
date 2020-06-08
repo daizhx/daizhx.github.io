@@ -2,6 +2,7 @@
 layout: post
 title: "docker入门总结"
 date:   2020-05-15 23:28:14 -0700
+categories: jekyll update
 ---
 
 # Docker入门
