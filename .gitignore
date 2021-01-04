@@ -1,7 +1,0 @@
-.bundle
-.sass-cache
-Gemfile.lock
-_site
-*.gem
-bak*
-minima*
