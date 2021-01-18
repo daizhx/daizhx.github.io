@@ -4,7 +4,7 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <button type="button" class="post-title" onclick="window.print()">打印</button>
+    <button type="button" class="post-title" onclick="print()">打印</button>
   </header>
 
   <div class="post-content">
@@ -17,7 +17,7 @@ layout: default
   function print()
   {
     var bodyHTML=window.document.body.innerHTML;
-    window.document.body.innerHTML=$('.post-content').html();  
+    window.document.body.innerHTML=$(".post-content").html();  
     window.print();  
     window.document.body.innerHTML=bodyHTML;
   }
