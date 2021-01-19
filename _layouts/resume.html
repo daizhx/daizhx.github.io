@@ -1,17 +1,28 @@
----
-layout: default
----
-<article class="post">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <header class="post-header">
-    <button type="button" class="post-title" onclick="print()">打印</button>
+  {%- include head.html -%}
+
+<body>
+  <header class="site-header">
+
+    <header class="post-header">
+      <button type="button" class="post-title" onclick="print()">打印</button>
+    </header>
   </header>
+  
+<main class="page-content" aria-label="Content">
+
+  
+  <article class="post">
 
   <div class="post-content" id="printcontent">
     {{ content }}
   </div>
 
-</article>
+  </article>
+
+</main>
 
 <script>
   function print()
@@ -38,3 +49,8 @@ layout: default
     }
   }
 </script>
+
+</body>
+
+</html>
+
