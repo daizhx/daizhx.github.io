@@ -6,14 +6,20 @@
 <body>
   <header class="site-header">
     <div class="wrapper">
-      {%- assign default_paths = site.pages | map: "path" -%}
-      {%- assign page_paths = site.header_pages | default: default_paths -%}
-      {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+	
+        <div class="site-title">
+<h1>
+          简历
+</h1>
+        </div>
+<nav class="site-nav">
+      <button type="button" class="btn btn-primary" onClick="print()">打印</button>
+</nav>
     </div>
   </header>
-  
+<!--  
 <main class="page-content" aria-label="Content">
+-->
   <div class="wrapper">
     <article class="post">
       <div class="post-content" id="printcontent">
@@ -21,7 +27,9 @@
       </div>
     </article>
   </div>
+<!--
 </main>
+-->
 
 <script>
   function print()
