@@ -17,8 +17,6 @@ permalink: /about/
  - 戴智鑫/男/1987
  - 本科/北京联合大学自动化学院信息处理与智能技术专业
  - 工作年限：10年
- - 技术博客：http://daizhx.github.io
- - Github：https://github.com/daizhx
 
  - 期望职位：Java高级工程师
  - 期望薪资：税前月薪20k~30k(接受议价)
